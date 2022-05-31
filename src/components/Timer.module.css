@@ -1,0 +1,61 @@
+.input{
+    margin-top: 20px;
+    text-align: center;
+}
+
+.minute{
+    width:25px;
+    text-align: center;
+    font-size: 18px;
+    border:1px solid black;
+    border-radius: 5px;
+    padding:10px;
+}
+
+.second{
+    width:25px;
+    text-align: center;
+    font-size: 18px;
+    border:1px solid black;
+    border-radius: 5px;
+    padding:10px;
+    margin-left: 10px;
+}
+
+.time{
+    border-bottom:1px solid silver;
+    width:60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:60px;
+    margin-top: 30px;
+    margin-left: 20%;
+    padding-bottom: 10px;
+}
+
+.timemin{
+    font-size: 48px;
+    font-weight: 500;
+}
+
+.timesec{
+    font-size: 48px;
+    font-weight: 500;
+    margin-left: 20px;
+}
+
+.start, .stop, .reset{
+    padding:10px 15px 10px 15px;
+    font-size: 18px;
+    background-color: rgb(134, 134, 245);
+    border-radius: 8px;
+    border:1px solid blue;
+    cursor: pointer;
+    margin-top: 40px;
+}
+
+
+.stop, .reset{
+    margin-left: 10px;
+}

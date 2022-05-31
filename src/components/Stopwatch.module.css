@@ -1,0 +1,43 @@
+
+
+.time{
+    border-bottom:2px solid silver;
+    width:70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:60px;
+    margin-top: 30px;
+    margin-left: 20%;
+    padding-bottom: 10px;
+}
+
+.timemin{
+    font-size: 48px;
+    font-weight: 500;
+}
+
+.timesec{
+    font-size: 48px;
+    font-weight: 500;
+    margin-left: 30px;
+}
+
+.timer{
+    width:50%;
+}
+
+.start, .stop, .reset{
+    padding:10px 15px 10px 15px;
+    font-size: 18px;
+    background-color: rgb(134, 134, 245);
+    border-radius: 8px;
+    border:1px solid blue;
+    cursor: pointer;
+    margin-top: 40px;
+}
+
+
+.stop, .reset{
+    margin-left: 10px;
+}
